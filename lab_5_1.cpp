@@ -3,7 +3,7 @@
 
 using namespace std;
 
-double h(const double x, const double y);
+double sum(const double x, const double y);
 
 int main()
 {
@@ -12,9 +12,9 @@ int main()
 	cout << "s = "; cin >> s;
 	cout << "t = "; cin >> t; 
 
-	double answ = sum(1, s + t) + h(s, s - t) - h(t, sqrt(pow(s, 2) + pow(t, 2)));
+	double answ = sum(1, s + t) + sum(s, s - t) - sum(t, sqrt(pow(s, 2) + pow(t, 2)));
 
-	cout << "answ = " << sum << endl;
+	cout << "answ = " << answ << endl;
 
 	return 0;
 
