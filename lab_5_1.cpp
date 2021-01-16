@@ -20,7 +20,7 @@ int main()
 
 }
 
-double sum(const double x, const double y) // розписав функцію
-{
-	return (pow(x, 2) + pow(y, 2))/ (1 + pow(x, 2) + pow(x, 2) * pow(x, 2));
+double sum(const double x, const double y){ // розписав функцію
+
+	return (pow(x, 2) + pow(y, 2))/ (1 + pow(x, 2) + pow(x, 2) * pow(y, 2));
 }

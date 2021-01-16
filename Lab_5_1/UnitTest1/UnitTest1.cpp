@@ -12,7 +12,7 @@ namespace UnitTest1
 		TEST_METHOD(TestMethod1)
 		{
 			double n = sum(20, 5);
-			Assert::AreEqual(n, 0.00264961, 0.00000001); // Добавив похибку, оскільки тут використовується double 
+			Assert::AreEqual(n, 0.0408615, 0.0000001); // Добавив похибку, оскільки тут використовується double 
 		}
 	};
 }
